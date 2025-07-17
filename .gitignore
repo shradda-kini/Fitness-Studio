@@ -1,0 +1,48 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Django SQLite database
+*.sqlite3
+
+# Django migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor-specific
+.vscode/
+.idea/
+
+# Test coverage
+htmlcov/
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+test_*.xml
+.pytest_cache/
+
+# Python wheels
+*.whl
+
+# Swagger/Redoc schema cache (if generated)
+schema.yml
+schema.json
