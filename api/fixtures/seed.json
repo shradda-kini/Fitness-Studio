@@ -1,0 +1,22 @@
+[
+  {
+    "model": "api.FitnessClass",
+    "pk": 1,
+    "fields": {
+      "name": "Yoga",
+      "datetime": "2025-06-20T10:00:00Z",
+      "instructor": "Asha",
+      "available_slots": 5
+    }
+  },
+  {
+    "model": "api.FitnessClass",
+    "pk": 2,
+    "fields": {
+      "name": "Zumba",
+      "datetime": "2025-06-21T11:00:00Z",
+      "instructor": "Usha",
+      "available_slots": 2
+    }
+  }
+]
